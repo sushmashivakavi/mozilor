@@ -1,0 +1,37 @@
+.sidebar {
+    min-height: 100vh;
+    background-color: #007bff;
+    color: white;
+}
+
+.sidebar h4 {
+    font-weight: bold;
+}
+
+.sidebar .nav-link {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.sidebar .nav-link.active {
+    background-color: #0056b3;
+    color: white;
+    font-weight: bold;
+}
+
+.topbar {
+    z-index: 1050; /* Ensure it stays on top */
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.topbar .dropdown-menu {
+    min-width: auto;
+    padding: 5px 10px;
+}
+
+.bg-light-blue {
+    background-color: #428dff !important; /* Light blue color */
+}
